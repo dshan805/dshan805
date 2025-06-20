@@ -29,31 +29,32 @@
 
 데이터 분석, 머신러닝 및 자동화 역량을 보여주는 주요 프로젝트들입니다:
 
-### 1. 🚲 밴쿠버 자전거 도로 이용 분석 (Bike Lane Usage Analysis in Vancouver)
+* ### 1. 🚴‍♀️ 밴쿠버 자전거 도로 이용 예측 (Vancouver Bike Lane Predictor)
+* **목표:** 밴쿠버의 향후 자전거 도로 이용을 예측하는 모델을 구축하여, 분석 프로젝트와는 다른 좀 더 집중된 인사이트나 모델링 접근 방식을 제공합니다.
+* **주요 기여:** 자전거 도로 이용을 위한 견고한 예측 모델을 개발했습니다. 도시 계획 및 자원 배분을 위한 신뢰할 수 있는 예측을 보장하기 위해 모델 평가 및 검증에 중점을 두었습니다.
+* **기술:** Python, 머신러닝, 데이터 모델링, 예측 분석.
+* **저장소:** [github.com/dshan805/vancouver-bike-lane-predictor](https://github.com/dshan805/vancouver-bike-lane-predictor)
+### 2. 🚲 밴쿠버 자전거 도로 이용 분석 (Bike Lane Usage Analysis in Vancouver)
 * **목표:** 밴쿠버의 자전거 도로 이용 패턴을 분석하여 기상 조건이 자전거 이용에 미치는 영향을 파악하고, 자전거 도로 인프라 관련 도시 계획 결정에 기여합니다.
 * **주요 기여:** 기상 조건(기온, 강수량)과 자전거 이용 간의 비선형 관계를 GAM(Generalized Additive Models)을 활용하여 탐색했습니다. 강수량이 이용량에 미치는 상당한 영향과 주중/주말 패턴의 차이를 발견했습니다. 밴쿠버 기후에서 자전거 도로의 연중 실용성에 대한 데이터 기반 통찰력을 제공했습니다.
 * **기술:** Python, pandas, numpy, matplotlib, pygam, scikit-learn, 데이터 정제, 통계 모델링.
 * **저장소:** [github.com/dshan805/bike_lane_usage](https://github.com/dshan805/bike_lane_usage)
-* ### 2. 🎗️ CNN 암 진단 (Kaggle Mini-Project)
+* ### 3. 🎗️ CNN 암 진단 (Kaggle Mini-Project)
 * **목표:** 림프절 조직 슬라이드의 이미지 패치에서 전이성 암의 존재 여부를 식별하는 컨볼루션 신경망(CNN) 모델을 개발하여 의료 진단의 핵심적인 요구사항을 해결합니다.
 * **주요 기여:** 견고한 데이터 증강 기법을 구현하고, TensorFlow/Keras를 활용하여 맞춤형 CNN 아키텍처를 설계했으며, `ImageDataGenerator`를 사용하여 대규모 이미지 데이터를 효율적으로 처리했습니다. 의료 데이터셋에서 흔히 발생하는 클래스 불균형을 다루는 전략을 탐색했습니다.
 * **기술:** Python, TensorFlow, Keras, CNN, 데이터 증강
 * **저장소:** [github.com/dshan805/cnn_cancer_detection](https://github.com/dshan805/cnn_cancer_detection)
-* ### 3. ⚽ EPL 선수 추천 시스템 (EPL Player Suggestion)
+* ### 4. ⚽ EPL 선수 추천 시스템 (EPL Player Suggestion)
 * **목표:** 성능 지표를 기반으로 잉글랜드 프리미어리그(EPL) 축구 선수를 추천하는 데이터 기반 시스템을 개발합니다.
 * **주요 기여:** 원본 선수 통계 데이터에서 광범위한 데이터 정제 및 피처 엔지니어링을 수행했습니다. 머신러닝 모델을 적용하여 핵심 성과 지표를 식별하고 특정 기준에 따라 선수를 추천했습니다.
 * **기술:** Python, pandas, scikit-learn, 데이터 전처리, 머신러닝.
 * **저장소:** [github.com/dshan805/epl-player-suggestion](https://github.com/dshan805/epl-player-suggestion)
-* ### 4. ⚡ PMJ 에너지 수요 예측 (PMJ-Energy-Demand-Forecasting)
+* ### 5. ⚡ PMJ 에너지 수요 예측 (PMJ-Energy-Demand-Forecasting)
 * **목표:** 에너지 자원 할당 및 계획을 최적화하기 위해 특정 지역 또는 기간의 에너지 수요 패턴을 예측합니다.
 * **주요 기여:** 계절성, 추세 및 외부 요인을 고려하여 복잡한 에너지 소비 패턴을 모델링하기 위해 시계열 분석 기술을 구현했습니다. 정확성과 견고성을 위해 다양한 예측 모델을 평가했습니다.
 * **기술:** Python, pandas, numpy, 시계열 분석, 예측 모델 (예: ARIMA, Prophet, 신경망).
 * **저장소:** [github.com/dshan805/PMJ-Energy-Demand-Forecasting](https://github.com/dshan805/PMJ-Energy-Demand-Forecasting)
-* ### 5. 🚴‍♀️ 밴쿠버 자전거 도로 이용 예측 (Vancouver Bike Lane Predictor)
-* **목표:** 밴쿠버의 향후 자전거 도로 이용을 예측하는 모델을 구축하여, 분석 프로젝트와는 다른 좀 더 집중된 인사이트나 모델링 접근 방식을 제공합니다.
-* **주요 기여:** 자전거 도로 이용을 위한 견고한 예측 모델을 개발했습니다. 도시 계획 및 자원 배분을 위한 신뢰할 수 있는 예측을 보장하기 위해 모델 평가 및 검증에 중점을 두었습니다.
-* **기술:** Python, 머신러닝, 데이터 모델링, 예측 분석.
-* **저장소:** [github.com/dshan805/vancouver-bike-lane-predictor](https://github.com/dshan805/vancouver-bike-lane-predictor) #
+ #
 
 ---
 
