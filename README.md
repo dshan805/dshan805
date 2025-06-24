@@ -36,7 +36,7 @@
 * **저장소:** [github.com/dshan805/vancouver-bike-lane-predictor](https://github.com/dshan805/vancouver-bike-lane-predictor)
 ### 2. 🚲 밴쿠버 자전거 도로 이용 분석 (Bike Lane Usage Analysis in Vancouver)
 * **목표:** 밴쿠버의 자전거 도로 이용 패턴을 분석하여 기상 조건이 자전거 이용에 미치는 영향을 파악하고, 자전거 도로 인프라 관련 도시 계획 결정에 기여합니다.
-* **주요 기여:** 기상 조건(기온, 강수량)과 자전거 이용 간의 비선형 관계를 GAM(Generalized Additive Models)을 활용하여 탐색했습니다. 강수량이 이용량에 미치는 상당한 영향과 주중/주말 패턴의 차이를 발견했습니다. 밴쿠버 기후에서 자전거 도로의 연중 실용성에 대한 데이터 기반 통찰력을 제공했습니다.
+* **주요 기여:** 기상 조건(기온, 강수량)과 자전거 이용 간의 비선형 관계를 GAM(Generalized Additive Models)을 활용하여 탐색했습니다. 강수량이 이용량에 미치는 상당한 영향과 주중/주말 패턴의 차이를 발견했습니다. 밴쿠버 기후에서 자전거 도로의 연중 실용성에 대한 데이터 기반 분석을 제공했습니다.
 * **기술:** Python, pandas, numpy, matplotlib, pygam, scikit-learn, 데이터 정제, 통계 모델링.
 * **저장소:** [github.com/dshan805/bike_lane_usage](https://github.com/dshan805/bike_lane_usage)
 * ### 3. 🎗️ CNN 암 진단 (Kaggle Mini-Project)
