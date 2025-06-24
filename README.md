@@ -52,7 +52,7 @@
 * ### 5. ⚡ PMJ 에너지 수요 예측 (PMJ-Energy-Demand-Forecasting)
 * **목표:** 에너지 자원 할당 및 계획을 최적화하기 위해 특정 지역 또는 기간의 에너지 수요 패턴을 예측합니다.
 * **주요 기여:** 계절성, 추세 및 외부 요인을 고려하여 복잡한 에너지 소비 패턴을 모델링하기 위해 시계열 분석 기술을 구현했습니다. 정확성과 견고성을 위해 다양한 예측 모델을 평가했습니다.
-* **기술:** Python, pandas, numpy, 시계열 분석, 예측 모델 (예: ARIMA, Prophet, 신경망).
+* **기술:** Python, pandas, numpy, 시계열 분석, 예측 모델 (예: ARIMA, Prophet).
 * **저장소:** [github.com/dshan805/PJM-Energy-Demand-Forecasting](https://github.com/dshan805/PJM-Energy-Demand-Forecasting)
  #
 
